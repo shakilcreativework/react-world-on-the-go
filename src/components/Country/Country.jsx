@@ -1,14 +1,15 @@
 import React, { useState } from 'react';
 import './Country.css';
 
-const Country = ({country}) => {
+const Country = ({country, handleVisitedCountries}) => {
     // console.log(country.flags?.flags?.png);
+    // console.log(handleVisitedCountries);
     const [visited, setVisited] = useState(false);
-
+    
     
     const handleVisited = () => {
         setVisited(!visited);
-        console.log(visited);
+        handleVisitedCountries();
     };
 
 
