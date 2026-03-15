@@ -13,10 +13,18 @@
   margin-top: 5px;
 }
 
-.cbtn {
+.not-visited {
     padding: 5px 10px;
     border: none;
     background: #000;
+    color: white;
+    border-radius: 4px;
+}
+
+.visited {
+    padding: 5px 10px;
+    border: none;
+    background: green;
     color: white;
     border-radius: 4px;
 }
